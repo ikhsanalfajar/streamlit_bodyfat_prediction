@@ -8,11 +8,11 @@
 
 ## Domain Proyek
 
-Data ini berisi mengenai indeks difusi pada negara Jepang yang merupakan prpyek yang berkaitan dengan ekonomi dan analisis data. Adapun beberapa indicator yang dipertimbangkan ialah tren rumah tangga, trend perusahaan, dan tren pekerjaan.sehingga data ini dapat digunakan untuk mengetahui tren ekonomi yang sedang berlangsung dan bisa menjadi indikasi dari seberapa maju atau kestabilan ekonomi pada negara Jepang.
+Data mengenai perkiraan lemak dalam tubuh dapat digunakan sebagai perkiraan presentase lemak sehingga dapat mengetahui berat badan sebenarnya tanpa kadar lemaknya
 
 ## Business Understanding
 
-Dapat digunakan oleh pemerintah maupun pengamat guna merencanakan suatu gagasan yang dapan menjaga kestabilan ekomoni negara dengan melihat dan mempertimbangkan data tren ekonomi yang diambil dari berbagai aspek yang telah dilakukan pada sebagian besar warga Jepang.
+Dapat memperkirakan persentase lemak dalam tubuh, sehingga dapat mengetahui berat badan sebenarnya yang dapat juga untuk mengukur kesehatan
 
 Bagian laporan ini mencakup:
 
@@ -20,20 +20,19 @@ Bagian laporan ini mencakup:
 
 Menjelaskan pernyataan masalah latar belakang:
 
-- Kesulitan pemerintah dan petinggi ngeara dalam menjaga kestabilan ekonomi di suatu negara dikarenakan kurangnya pendataan mengenai perilaku konsumsi warga negaranya.
+- Kesulitan untuk menghitung kandungan lemak yang terkandung dalam tubuh karena sulitnya mengetahui apabila dilihat secara kasat mata
 
 ### Goals
 
 Menjelaskan tujuan dari pernyataan masalah:
 
-- Maka dari itu riset yang telah dilakukan dan hasil dari riset ini dapat membantu pemerintah maupun pihak lainnya dalam memberikan informasi mengenai perilaku konsumsi warga negara nya, karna data mengenai tren ekonomi ini dapat menjadi indikasi dari seberapa maju negaranya apabila dilihat dari segi ekonominya.
+- Sebagai upaya memudahkan seseorang mengetahui kadar lemak apabila sekedar melihat postur tubuh secara kasat mata
 
 Semua poin di atas harus diuraikan dengan jelas. Anda bebas menuliskan berapa pernyataan masalah dan juga goals yang diinginkan.
 
 ### Solution statements
 
-- Mengadakan pendataan maupun riset secara berkala dan rutin kepada warga negara mengenai tren ekonomi yang berlangsung agar data selalu ter update
-- Menjaga perilaku konsumsi warga negara agar kestabilan negara dapat terjaga dengan upaya memberikan sosialisasi mengenai gaya hidup yang sesuai kebutuhan dan tidak melakukan gaya hidup yang konsumtif
+- Pengembangan platform dari prediksi lemak dalam tubuh yang berbasis web adalah menggembangkan plagform yang berisi cara menghitung kadar lemak dengan memasukkan beberapa data yang berkaitan sehingga dapat mengetahui kadar lemak yang terkandung dalam tubuh
 - Model yang dihasillkan dari datasets ini menggunakan metode Linear Regression.
 
 ## Data Understanding
@@ -226,7 +225,7 @@ dan hasil yang saya dapatkan adalah 0.990970076843705, itu berarti model ini mem
 
 ## Deployment
 
-[My Estimation App](https://app-diffusion-index-in-japan-ikhsan.streamlit.app/).
+[My Estimation App](https://appbodyfatprediction-ikhsan.streamlit.app/).
 
 ![Alt text](app_streamlit.png)
 
