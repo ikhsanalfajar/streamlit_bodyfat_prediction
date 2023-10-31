@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('estimasi_bodyfat.sav', 'rb'))
+model = pickle.load(open('estimasi_BodyFat.sav', 'rb'))
 
 st.title('Body Fat Prediksi')
 
